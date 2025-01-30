@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+body{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    background-color: #f4f4f9 ;
+
+}
+
+.title{
+  
+    text-align: center;
+    font-family:"Lobster", cursive ;
+    margin-top: 20px;
+    font-size: 2.5rem;
+ 
+}
+
+/* .term, .definition{
+    
+    text-align: center;
+    margin: 100px;
+    width: 45%;
+    margin: 10px    auto;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+
+
+
+} */
+.term,.definition {
+    border: solid 2px black;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 15px;
+    
+
+}
+
+.button{
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 15px;
+ 
+
+  
+
+
+}
+.button button{
+    padding: 10px 20px;
+    background-color: #48b4d4;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    cursor:pointer ;
+    font-size: 1rem;
+    margin: 5px;
+    border: none;
+    transition: background-color 0.3s ease; 
+
+
+}
+
+
+button:hover{
+  transform:scale(1.1);
+  background-color: #0056b3;
+ /* transition: transform 0.3s ease; ; */
+}
+
+.flashcards{
+    margin: 20px auto;
+    width: 50%;
+    max-width: 600px;
+}
+
+
+.flashcard{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius:5px;
+    padding:15px;
+    margin:10px 0;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);;
+}
+
+.flashcards h2{
+margin: 0;
+font-size: 1rem;
+color: #555;
+
+}
+.flashcard p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+#definitionInput {
+    display: flex;
+}
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.deleteButton {
+    background-color: #ff4d4d; /* Red background */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding around the button */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Spacing above the button */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect for delete button */
+.deleteButton:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
